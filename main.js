@@ -15,9 +15,5 @@ $button.on('click',function(){
         color: '#168955'
       });
     }
-  }, 100);
+  }, Math.random()*250);
 });
-
-var addToBar = function() {
-
-};

@@ -20,12 +20,17 @@ button {
   position: relative;
   z-index: 0;
   color: #fff;
-  transition: 1s;
+  /*transition: width 100ms;*/
+}
+
+button:hover {
+  cursor: pointer;
+  background: #14794b;
 }
 
 
 .buttonContent {
-  transition: 1s;
+  transition: width 100ms;
 }
 /*button::after {
   content: '';
@@ -46,5 +51,5 @@ button {
   height: 100%;
   width: 0;
   z-index: 1;
-  transition: width 1s;
+  transition: width 200ms;
 }
